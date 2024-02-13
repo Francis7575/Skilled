@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     padding: 1rem 1rem 4.5rem 1rem;
 
-    & h1 {
+    & h4 {
         font-size: 1.75rem;
         font-weight: 800;
         z-index: 10;
@@ -51,7 +51,7 @@ body {
     gap: 1.5rem;
     padding: 0 1rem;
 
-    & h1 {
+    & h2 {
         font-size: 2.5rem;
         max-width: 21.43rem;
         font-weight: 800;
@@ -164,7 +164,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 
-    & h1 {
+    & h4 {
         font-size: 1.75rem;
         font-weight: 800;
         color: $color-white;
@@ -313,7 +313,7 @@ footer {
     .header {
         padding: 2.37rem 10.31rem 0 10.31rem;
 
-        & h1 {
+        & h4 {
             font-size: 2.25rem;
         }
 
@@ -330,7 +330,7 @@ footer {
     .left {
         padding: 15.75rem 0 0 10.31rem;
 
-        & h1 {
+        & h2 {
             max-width: 29rem;
             font-size: 3.5rem;
         }
@@ -384,7 +384,7 @@ footer {
 
     .footer_wrap {
 
-        & h1 {
+        & h4 {
             font-size: 2.25rem;
         }
 

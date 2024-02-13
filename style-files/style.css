@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   padding: 1rem 1rem 4.5rem 1rem;
 }
-.header h1 {
+.header h4 {
   font-size: 1.75rem;
   font-weight: 800;
   z-index: 10;
@@ -45,7 +45,7 @@ body {
   gap: 1.5rem;
   padding: 0 1rem;
 }
-.left h1 {
+.left h2 {
   font-size: 2.5rem;
   max-width: 21.43rem;
   font-weight: 800;
@@ -149,7 +149,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.footer_wrap h1 {
+.footer_wrap h4 {
   font-size: 1.75rem;
   font-weight: 800;
   color: #FFF;
@@ -270,7 +270,7 @@ footer {
   .header {
     padding: 2.37rem 10.31rem 0 10.31rem;
   }
-  .header h1 {
+  .header h4 {
     font-size: 2.25rem;
   }
   .header a {
@@ -283,7 +283,7 @@ footer {
   .left {
     padding: 15.75rem 0 0 10.31rem;
   }
-  .left h1 {
+  .left h2 {
     max-width: 29rem;
     font-size: 3.5rem;
   }
@@ -323,7 +323,7 @@ footer {
   footer {
     padding: 2rem 10.31rem;
   }
-  .footer_wrap h1 {
+  .footer_wrap h4 {
     font-size: 2.25rem;
   }
   .footer_wrap a {

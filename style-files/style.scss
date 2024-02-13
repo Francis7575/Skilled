@@ -26,6 +26,7 @@ body {
     }
 
     & a {
+        text-align: center;
         font-size: 1rem;
         font-weight: 700;
         line-height: 1.75rem;
@@ -165,6 +166,7 @@ footer {
     }
 
     & a {
+        text-align: center;
         color: $color-white;
         padding: .62rem 1.5rem;
         border-radius: 1.75rem;
@@ -244,7 +246,7 @@ footer {
 
 @media (min-width: 1024px) {
     .header {
-        padding: 1.81rem 10.31rem 0 10.31rem;
+        padding: 1.81rem 6rem 0 3rem;
     }
 
     .tablet_image {
@@ -266,12 +268,16 @@ footer {
         right: -295px;
     }
 
+    .left {
+        padding: 13.5rem 1rem 0 3rem;
+    }
+
     .mid_section {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-column-gap: 1.87rem;
         grid-row-gap: 5rem;
-        padding: 0 2.43rem 8.75rem 2.43rem;
+        padding: 0 2.43rem 8.75rem 3rem;
     }
 
     .mid_gradient_container {
@@ -289,6 +295,6 @@ footer {
     }
 
     footer {
-        padding: 2.68rem 5rem;
+        padding: 2.68rem 6rem 2.68rem 3rem;
     }
 }

@@ -34,10 +34,11 @@ body {
         padding: .62rem 1.5rem;
         text-decoration: none;
         color: $color-white;
-        background-color: $color-darkBlue;
+        background: $color-darkBlue;
+        z-index: 10;
 
         &:hover {
-            background-color: #666CA3;
+            background: $color-first-hover;
         }
     }
 }
@@ -264,12 +265,17 @@ footer {
     }
 
     .right {
-        bottom: 44px;
-        right: -295px;
+        bottom: 13px;
+        right: -284px;
     }
 
     .left {
         padding: 13.5rem 1rem 0 3rem;
+
+        & p {
+            max-width: 27.81rem;
+            font-size: 1.12rem;
+        }
     }
 
     .mid_section {
@@ -277,7 +283,7 @@ footer {
         grid-template-rows: repeat(2, auto);
         grid-column-gap: 1.87rem;
         grid-row-gap: 5rem;
-        padding: 0 2.43rem 8.75rem 3rem;
+        padding: 0 3rem 8.75rem 3rem;
     }
 
     .mid_gradient_container {
@@ -295,6 +301,6 @@ footer {
     }
 
     footer {
-        padding: 2.68rem 6rem 2.68rem 3rem;
+        padding: 2.68rem 3rem 2.68rem 3rem;
     }
 }

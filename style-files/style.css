@@ -31,10 +31,11 @@ body {
   padding: 0.62rem 1.5rem;
   text-decoration: none;
   color: #FFF;
-  background-color: #13183F;
+  background: #13183F;
+  z-index: 10;
 }
 .header a:hover {
-  background-color: #666CA3;
+  background: #666CA3;
 }
 
 .left {
@@ -233,18 +234,22 @@ footer {
     min-height: 45rem;
   }
   .right {
-    bottom: 44px;
-    right: -295px;
+    bottom: 13px;
+    right: -284px;
   }
   .left {
     padding: 13.5rem 1rem 0 3rem;
+  }
+  .left p {
+    max-width: 27.81rem;
+    font-size: 1.12rem;
   }
   .mid_section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 1.87rem;
     grid-row-gap: 5rem;
-    padding: 0 2.43rem 8.75rem 3rem;
+    padding: 0 3rem 8.75rem 3rem;
   }
   .mid_gradient_container p {
     font-size: 1.7rem;
@@ -255,6 +260,6 @@ footer {
     max-width: 17.87rem;
   }
   footer {
-    padding: 2.68rem 6rem 2.68rem 3rem;
+    padding: 2.68rem 3rem 2.68rem 3rem;
   }
 }/*# sourceMappingURL=style.css.map */

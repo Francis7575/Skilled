@@ -21,6 +21,7 @@ body {
 .header h1 {
   font-size: 1.75rem;
   font-weight: 800;
+  z-index: 10;
 }
 .header a {
   text-align: center;
@@ -58,6 +59,7 @@ body {
   text-align: center;
   max-width: 10.43rem;
   padding: 0.9rem 2.37rem;
+  font-weight: 700;
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
   color: #FFF;
   text-decoration: none;
@@ -222,6 +224,9 @@ footer {
   .header {
     padding: 1.81rem 6rem 0 3rem;
   }
+  .header h1 {
+    font-size: 2.25rem;
+  }
   .tablet_image {
     display: none;
   }
@@ -238,7 +243,7 @@ footer {
     right: -284px;
   }
   .left {
-    padding: 13.5rem 1rem 0 3rem;
+    padding: 13.5rem 0 0 3rem;
   }
   .left p {
     max-width: 27.81rem;
@@ -261,5 +266,63 @@ footer {
   }
   footer {
     padding: 2.68rem 3rem 2.68rem 3rem;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    padding: 2.37rem 10.31rem 0 10.31rem;
+  }
+  .header a {
+    font-size: 1.12rem;
+    padding: 0.87rem 2rem;
+  }
+  .top_section {
+    margin-top: -94px;
+  }
+  .left {
+    padding: 15.75rem 0 0 10.31rem;
+  }
+  .left h1 {
+    max-width: 29rem;
+    font-size: 3.5rem;
+  }
+  .left a {
+    font-size: 1.12rem;
+    padding: 1.18rem 2rem;
+  }
+  .right {
+    right: -284px;
+    bottom: 13px;
+  }
+  .mid_section {
+    padding: 0 10.31rem 8.75rem 10.31rem;
+  }
+  .mid_gradient_container {
+    border-radius: 0.93rem;
+    padding: 4rem 2rem 8.625rem 2rem;
+  }
+  .mid_gradient_container p {
+    font-size: 2rem;
+    max-width: 17.87rem;
+  }
+  .courses_container {
+    padding: 0 2rem 2.5rem 2rem;
+    border-radius: 0.93rem;
+  }
+  .courses_container h4 {
+    font-size: 1.5rem;
+  }
+  .courses_container p {
+    font-size: 1.12rem;
+    max-width: 17.87rem;
+  }
+  .courses_text_content {
+    margin: 2rem 0 1.5rem 0;
+  }
+  footer {
+    padding: 2rem 10.31rem;
+  }
+  .footer_wrap h1 {
+    font-size: 2.25rem;
   }
 }/*# sourceMappingURL=style.css.map */

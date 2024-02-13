@@ -64,9 +64,10 @@ body {
     }
 
     & a {
+        font-size: 1rem;
         text-align: center;
         max-width: 10.43rem;
-        padding: .9rem 2.37rem;
+        padding: .9rem;
         font-weight: 700;
         background: $color-top-gradient;
         color: $color-white;
@@ -251,10 +252,6 @@ footer {
 @media (min-width: 1024px) {
     .header {
         padding: 1.81rem 6rem 0 3rem;
-
-        & h1 {
-            font-size: 2.25rem;
-        }
     }
 
     .tablet_image {
@@ -315,6 +312,10 @@ footer {
 @media (min-width: 1440px) {
     .header {
         padding: 2.37rem 10.31rem 0 10.31rem;
+
+        & h1 {
+            font-size: 2.25rem;
+        }
 
         & a {
             font-size: 1.12rem;
@@ -382,8 +383,14 @@ footer {
     }
 
     .footer_wrap {
+
         & h1 {
             font-size: 2.25rem;
+        }
+
+        & a {
+            font-size: 1.12rem;
+            padding: .87rem 2rem;
         }
     }
 }
